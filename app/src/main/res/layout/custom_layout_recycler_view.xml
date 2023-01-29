@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/custom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin4"
+        android:background="@color/app_background">
+
+
+        <TextView
+            android:id="@+id/name_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/txtSize25"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/exampleT1"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/description_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/default_text_color"
+            android:textSize="@dimen/txtSize25"
+            app:layout_constraintEnd_toStartOf="@+id/guideline2"
+            app:layout_constraintStart_toStartOf="parent"
+            android:text="@string/exampleT2"
+            app:layout_constraintTop_toBottomOf="@+id/name_card" />
+
+
+        <ImageView
+            android:id="@+id/image_card"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/asteroidState"
+            app:layout_constraintBottom_toBottomOf="@+id/description_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline2"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_status_potentially_hazardous" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent="0.8" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent="0.5" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

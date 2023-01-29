@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">MyAsteroidsNasaApp</string>
+    <string name="nextWeekAsteroids">View week asteroids</string>
+    <string name="todayAsteroids">View today asteroids</string>
+    <string name="savedAsteroids">View saved asteroids</string>
+    <string name="closeApproachDataTitle">Close approach date</string>
+    <string name="absoluteMagnitudeTitle">Absolute magnitude</string>
+    <string name="estimatedDiameterTitle">Estimated diameter</string>
+    <string name="relativeVelocityTitle">Relative velocity</string>
+    <string name="distanceFromEarthTitle">Distance from earth</string>
+    <string name="astronomicalUnitFormat">%f au</string>
+    <string name="kmUnitFormat">%f km</string>
+    <string name="km_s_unitFormat">%f km/s</string>
+    <string name="imageOfTheDay">Image of the day</string>
+    <string name="astronomicalUnitExplanation">The astronomical unit (au) is a unit of length, roughly the distance from Earth to the Sun and equal to about 150 million kilometres (93 million miles)</string>
+    <string name="astronomicalUnitExplanationButton">Astronomical unit definition</string>
+    <string name="potentiallyHazardousAsteroidImage">Potentially hazardous asteroid image</string>
+    <string name="notHazardousAsteroidImage">Not hazardous asteroid image</string>
+    <string name="pictureOfDay_showing_nothing_yet">This is NASA\'s picture of day, showing nothing yet</string>
+    <string name="pictureOfDayContentDescriptionFormat">NASA\'s picture of day: %s</string>
+    <string name="imageOfAsteroidSelected">image of asteroid selected </string>
+    <string name="asteroidState">Asteroid state</string>
+    <string name="errorDuringDownloading">Appear when happened an error in downloading a picture</string>
+    <string name="pictureOfNasaAsteroid">pictureOfNasaAsteroid</string>
+    <string name="exampleT1">ExampleT1</string>
+    <string name="exampleT2">ExampleT2</string>
+    <string name="next_week_asteroids">next_week_asteroids</string>
+    <string name="today_asteroids">today_asteroids</string>
+    <string name="saved_asteroids">saved_asteroids</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
